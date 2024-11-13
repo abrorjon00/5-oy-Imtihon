@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vakansiya Ma'lumotlari</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="h2-text">Vakansiya ma'lumotlarini kiriting</h2>
+        <form id="jobForm">
+            <h5 class="logo-h5">Logotip URL</h5>
+            <input type="text" id="logoURL" placeholder="Logotip URL manzilini kiriting"><br>
+            <h5 class="logo-h55">Kompaniya nomi</h5>
+            <input type="text" id="companyName" placeholder="Manage"><br>
+            <input type="checkbox" id="new"> Yangi
+            <input type="checkbox" id="featured"> Featured<br><br>
+            <h5 class="logo-h5">Lavozim</h5>
+            <input type="text" id="position" placeholder="Fullstack Developer"><br>
+            <div class="texts">
+            <h6 class="logo-h6">Vaqt</h6>      
+            <h6 class="logo-h6">Ish turi</h6>       
+            <h6 class="logo-h6">Joylashuv</h6>
+        </div>
+            <div class="block">
+            <select id="time">
+                <option value="">Tanlang</option>
+                <option value="1-soat">1-soat</option>
+                <option value="2-soat">2-soat</option>
+                <option value="3-soat">3-soat</option>
+                <option value="4-soat">4-soat</option>
+                <option value="5-soat">5-soat</option>
+
+            </select>
+
+            <select id="jobType">
+                <option value="">Tanlang</option>
+                <option value="Office">Office</option>
+                <option value="Home">Home</option>
+                <option value="Onlayn">Onlayn</option>
+                <option value="Oflayn">Oflayn</option>
+
+
+            </select>
+
+            <select id="location">
+                <option value="">Tanlang</option>
+                <option value="USA">USA</option>
+                <option value="Rossiya">Rossiya</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+            </select><br><br>
+        </div>
+        <h6 class="logo-h6">Konikmalar</h6>
+          <div class="fills">
+            <input type="checkbox" id="fullstack"> Fullstack
+            <input type="checkbox" id="midweight"> Midweight
+        </div>
+        <div class="fills2">
+            <input type="checkbox" id="python"> Python
+            <input type="checkbox" id="react"> React<br><br>
+        </div>
+            <button type="button" onclick="showData()">Saqlash</button>
+        </form>
+    </div>
+ 
+    <div id="output"></div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
