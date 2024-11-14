@@ -6,11 +6,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f4f8;
+    background-color: peachpuff;
 }
 
 .container {
-    background-color: #ffffff;
+    background-color: rgb(238, 238, 246);
     padding: 20px;
     border-radius: 10px;
     width: 300px;
@@ -44,6 +44,7 @@ input[type="text"], select {
 input[type="checkbox"] {
     margin-right: 5px;
     margin-top: -3px;
+    
 }
 
 button {

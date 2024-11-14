@@ -1,4 +1,5 @@
-function showData() {
+ alert("Xush kelibsiz")
+ function showData() {
     const logoURL = document.getElementById("logoURL").value;
     const companyName = document.getElementById("companyName").value;
     const isNew = document.getElementById("new").checked ? "<span class='tag new-tag'>NEW!</span>" : "";
